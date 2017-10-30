@@ -4,14 +4,14 @@ react学习示例一
 * 第二点
 * 第三点
 
-## git的一些配置
+## git的命令
 
 * git push --force origin master 强制push
 * git remote add origin https://github.com/Linyan-ma/react-Learn.git 连接远程仓库
 * git add . (git add --A/git add <file>)
 * git commit -m "describe"
 * rm -rf .git 删除.git文件
-* git config --global core.autocrlf false crlf windows下的空格换行
+* git config --global core.autocrlf false crlf windows下的空格换行（warning: LF will be replaced by CRLF）
 * git rm README.1.md 删除文件
 * git push origin master 提交的远程仓库
 * git pull origin master 远程仓库拉取
