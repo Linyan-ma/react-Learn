@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import 'moudle';
 @import 'siller';
 .wrap {
@@ -47,54 +46,4 @@ dl {
 }
 #sillerDiv{
     margin-top:0.4rem;
-=======
-@import 'moudle';
-@import 'siller';
-.wrap {
-    margin-top: 0.1rem;
-}
-.tips{
-    // font-family: PingFangSC-Regular;
-    height: 0.3rem;
-    line-height: 0.3rem;
-    font-size: 0.13rem;
-    color: #999999;
-    letter-spacing: 0.01px;
-    padding-left: 0.14rem;
-    margin-top:0.1rem;
-}
-dl {
-    position: relative;
-    height: 0.44rem;
-    line-height: 0.44rem;
-    background-color: #FFFFFF;
-    font-size: 0;
-    display: -webkit-box;
-    border-bottom: 1px solid rgba(225, 225, 225, 0.5);
-    dt {
-        text-align: left;
-        padding-left: 0.16rem;
-        font-size: .16rem;
-        height: 0.44rem;
-        line-height: .44rem;
-        color: #333333;
-    }
-    dd {
-        position: relative;
-        width: 100%;
-        height: 0.44rem;
-        line-height: 0.44rem;
-        -webkit-box-flex: 1;
-        margin: 0;
-        margin-left: 0.10rem;
-        input {
-            font-size: .16rem; // color: #C3C3C3;
-            width: 85%;
-            height: 100%; //   border:1px solid #999;
-        }
-    }
-}
-#sillerDiv{
-    margin-top:0.4rem;
->>>>>>> 2fdc2b0eaeaf32c160a41960fbbca76aac02f799
 }
