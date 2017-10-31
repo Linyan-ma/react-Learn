@@ -25,7 +25,6 @@ class Account extends Component {
         account: this.state.account
       }
     }).then((res) => {
-      console.log(this.props.history)
       this.props.history.push('/chooseWay')
       // this.context.router.push(path)
 
