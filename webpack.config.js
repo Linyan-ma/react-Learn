@@ -9,6 +9,11 @@ var APP_PATH = path.resolve(ROOT_PATH, 'src'); //__dirname 中的src目录，以
 var nodeEnv = process.env.NODE_ENV || 'development';
 var isProd = nodeEnv === 'production';
 const plugins = [
+  new webpack.DefinePlugin({
+    'process.env': {
+      NODE_ENV: JSON.stringify('development') //定义编译环境
+    }
+  }),
   new HtmlWebpackPlugin({
     filename: 'index.html',
     template: path.resolve(APP_PATH, 'index.html'),
@@ -45,7 +50,7 @@ if (isProd) {
   )
 }
 module.exports = {
-  devtool: isProd ? 'cheap-module-source-map' : 'eval',
+  devtool: isProd ? '#source-map' : '#cheap-module-eval-source-map',
   entry: {
     app: path.resolve(APP_PATH, 'index.js')
   },
